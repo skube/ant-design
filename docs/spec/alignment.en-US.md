@@ -23,7 +23,7 @@ If the paragraphs or the length of the words are too short or too loose, then a 
 
 <img class="preview-img" align="right" alt="example of colon alignment" src="https://gw.alipayobjects.com/zos/rmsportal/OaTkwGfGxRSFsvAlzZMq.png">
 
-Colon alignment(right-align) can encircle the content into a certain range. Users can infer where the chart is through the regular arranged colon so that the speed of filling in the chart can be speeded up.
+Colon alignment (right-aligned) can define the content to a certain range. Users can infer where the form is going from the regular arranged colons — speeding up the filling of the form.
 
 ---
 
@@ -32,4 +32,4 @@ Colon alignment(right-align) can encircle the content into a certain range. User
 <img class="preview-img good" align="right" alt="good example" src="https://gw.alipayobjects.com/zos/rmsportal/bIJAZcUmaRxJeFxZJwUp.png">
 <img class="preview-img bad" align="right" alt="bad example" src="https://gw.alipayobjects.com/zos/rmsportal/zUmANVIhBanDnlyOhvaH.png">
 
-To compare the numbers faster, we suggest that all numbers should keep the same digit numbers after decimal point; meanwhile all numbers should be right-aligned.
+To compare the numbers faster, we suggest that all numbers should keep the same number of digits after the decimal point; meanwhile all numbers should be right-aligned.
