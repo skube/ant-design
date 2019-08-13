@@ -3,7 +3,7 @@ order: 0
 title: Ant Design of React
 ---
 
-Following the Ant Design specification, we developed a React UI library `antd` that contains a set of high quality components and demos for building rich, interactive user interfaces.
+Following the [Ant Design specification](https://ant.design/docs/spec/introduce), we developed `antd` — a React UI library that contains a set of high quality components and demos for building rich, interactive user interfaces.
 
 <div class="pic-plus">
   <img width="150" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
@@ -48,7 +48,7 @@ You can subscribe to this feed for new version notifications: https://github.com
 
 ### Using npm or yarn
 
-**We recommend using npm or yarn to install**, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
+**We recommend using `npm` or `yarn` to install**, it not only makes development easier but also allows you to take advantage of the rich ecosystem of Javascript packages and tooling.
 
 ```bash
 $ npm install antd
@@ -66,9 +66,9 @@ Add `script` and `link` tags in your browser and use the global variable `antd`.
 
 We provide `antd.js` `antd.css` and `antd.min.js` `antd.min.css` under `antd/dist` in antd's npm package. You can also download these files directly from [![CDNJS](https://img.shields.io/cdnjs/v/antd.svg?style=flat-square)](https://cdnjs.com/libraries/antd), [![](https://data.jsdelivr.com/v1/package/npm/antd/badge)](https://www.jsdelivr.com/package/npm/antd) or [unpkg](https://unpkg.com/antd/dist).
 
-> **We strongly discourage loading the entire files** this will add bloat to your application and make it more difficult to receive bugfixes and updates. Antd is intended to be used in conjunction with a build tool, such as [webpack](https://webpack.github.io/), which will make it easy to import only the parts of antd that you are using.
+> **We strongly discourage loading the entire files** this will add bloat to your application and make it more difficult to receive bugfixes and updates. `antd` is intended to be used in conjunction with a build tool, such as [webpack](https://webpack.github.io/), which will make it easy to import only the parts of antd that you are using.
 
-> Note: you should import moment before using antd.js after `3.0`.
+> Note: For `antd` versions 3.0+, you must import `moment` before using.
 
 ## Usage
 
@@ -83,9 +83,9 @@ And import stylesheets manually:
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 ```
 
-### Use modularized antd
+### Use modularized `antd`
 
-> Note: antd support ES6 tree shaking by default even without the below plugin.
+> Note: `antd` supports ES6 tree shaking by default even without the below plugin.
 
 - Use [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) (Recommended)
 
@@ -98,7 +98,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
   }
   ```
 
-  This allows you to import components from antd without having to manually import the corresponding stylesheet. The antd babel plugin will automatically import stylesheets.
+  This allows you to import components from `antd` without having to manually import the corresponding stylesheet. The `antd` babel plugin will automatically import stylesheets.
 
   ```jsx
   // import js and css modularly, parsed by babel-plugin-import
@@ -115,7 +115,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 ### TypeScript
 
-- Don't use @types/antd, as antd provides a built-in ts definition already.
+- Don't use `@types/antd`, as `antd` provides a built-in ts definitions already.
 
 ## Links
 
@@ -140,7 +140,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 - [Awesome Ant Design](https://github.com/websemantics/awesome-ant-design)
 - [Customize Theme](/docs/react/customize-theme)
 
-## Companies using antd
+## Companies using `antd`
 
 - [Ant Financial](http://www.antfin.com/index.htm?locale=en_US)
 - [Alibaba](http://www.alibaba.com/)
@@ -157,12 +157,12 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 Please read our [CONTRIBUTING.md](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md) first.
 
-If you'd like to help us improve antd, just create a [Pull Request](https://github.com/ant-design/ant-design/pulls). Feel free to report bugs and issues [here](http://new-issue.ant.design/).
+If you'd like to help us improve `antd`, just create a [Pull Request](https://github.com/ant-design/ant-design/pulls). Feel free to report bugs and issues [here](http://new-issue.ant.design/).
 
 > If you're new to posting issues, we ask that you read [_How To Ask Questions The Smart Way_](http://www.catb.org/~esr/faqs/smart-questions.html) and [How to Ask a Question in Open Source Community](https://github.com/seajs/seajs/issues/545) and [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) prior to posting. Well written bug reports help us help you!
 
 ## Need Help?
 
-For questions on how to use antd, please post questions to [<img alt="Stack Overflow" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg?v=2bb144720a66" width="140" />](http://stackoverflow.com/questions/tagged/antd) using the `antd` tag. If you're not finding what you need on stackoverflow, you can find us on [![Gitter](https://badges.gitter.im/ant-design/ant-design-english.svg)](https://gitter.im/ant-design/ant-design-english?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) as well.
+For questions on how to use `antd`, please post questions to [<img alt="Stack Overflow" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg?v=2bb144720a66" width="140" />](http://stackoverflow.com/questions/tagged/antd) using the `antd` tag. If you're not finding what you need on stackoverflow, you can find us on [![Gitter](https://badges.gitter.im/ant-design/ant-design-english.svg)](https://gitter.im/ant-design/ant-design-english?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) as well.
 
 As always, we encourage experienced users to help those who are not familiar with `antd`!
